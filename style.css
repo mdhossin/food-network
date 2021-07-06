@@ -6,6 +6,7 @@
 /* font-family: 'Open Sans', sans-serif; */
 *{
     scroll-behavior: smooth;
+
 }
 
 body{
@@ -15,15 +16,16 @@ body{
     box-sizing: border-box;
     background: #F7F9F8;
     color: #212025;
+    font-size: 16px;
 }
 
 h1,h2{
-    font-size: 55px;
+    font-size: 3.4rem;
 }
 
 h3{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 p{
     color: #575757;
@@ -32,7 +34,7 @@ p{
 a,button{
     font-family: 'Fira Sans','Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     text-decoration: none;
     color: #212025;
     text-transform: capitalize;
@@ -41,10 +43,10 @@ a,button{
   /* Use all button style  */
 
 .nav-btn{
-    padding: 9px 25px;
+    padding: .5rem 1.5rem;
     background: linear-gradient(to right,#FDC830,#f37335);
     color: white;
-    border-radius: 50px;
+    border-radius: 3.1rem;
 } 
 
     /* Use for half with of container */
@@ -62,17 +64,17 @@ a,button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5%;
+    padding: 0% 5%;
 }
 .logo{
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 .nav-links{
     list-style: none;
 }
 .nav-links li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 1.2rem;
 }
 .nav-links li a{
     color: #212025;
@@ -84,7 +86,7 @@ a,button{
 #home{
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
 }
 
 #home .half-width img{
@@ -92,13 +94,13 @@ a,button{
     height: auto;
 }
 #home .top-margin{
-    margin-top: 100px;
+    margin-top: 6rem;
 }
 .discover-taste{
     color: rgb(255, 115, 1);
 }
 .top-margin p{
-    padding-bottom: 10px;
+    padding-bottom: 0.8rem;
     
 }
 
@@ -109,14 +111,14 @@ a,button{
 
 #about{
     width: 100%;
-   height: 600px;
+    height:35rem;
     background: url(images/7.png) no-repeat center center;
     background-size: cover;
     display: flex;
-    padding: 50px 0 0 0;
+    padding: 3rem 0 0 0;
 }
 #about .half-width p{
-    padding-bottom: 10PX;
+    padding-bottom: 0.8rem;
 }
 
 
@@ -124,9 +126,6 @@ a,button{
     Start Recipies Section 
 ==================================*/
 
-#recipie{
-    padding: 50px 0;
-}
 #recipie .title-recipie{
     text-align: center;
 }
@@ -137,14 +136,15 @@ a,button{
 
 #recipie p{
     color: #575757;
+    padding-bottom: .8rem;
 }
 
 .recipie-list .recipie{
     width: 32%;
     margin: 2% 5%;
-    padding: 20px;
-    box-shadow: 0 3px 12px black, inset 0 9px white;
-    border-radius: 20px;
+    padding: 1.2rem;
+    box-shadow: 0 .2rem .4rem black, inset 0 .4rem white;
+    border-radius: 1.2rem;
     text-align: center;
 }
 .recipie-list .recipie-2{
@@ -168,7 +168,7 @@ a,button{
 
 #menu{
     background: white;
-    padding: 50px 0 0 0;
+    padding: 3rem 0 3rem 0;
 }
 #menu span{
     display: block;
@@ -189,14 +189,15 @@ a,button{
     background:  #FFF5F2 ;
     width: 32%;
     margin: 2% 5%;
-    padding: 20px;
-    box-shadow: 0 3px 12px black, inset 0 9px white;
-    border-radius: 20px;
+    padding: 1.2rem;
+    box-shadow: 0 .2rem .4rem black, inset 0 .4rem white;
+    border-radius: 1.2rem;
     text-align: center;
 }
 .menu-list .menu-width-2{
     margin: 2% 0%;
 }
+
 .menu-list a{
     margin: 2% 0;
     display: block;
@@ -207,7 +208,7 @@ a,button{
 ======================== */
 
 #service-section{
-    padding: 50px 0 0 0 ;
+    padding: 3rem 0 0 0 ;
     background: url(images/service-bg.jpg) no-repeat center center;
     background-size: cover;
     display: flex;
@@ -217,7 +218,10 @@ a,button{
     height: auto;
 }
 .service-width{
-    margin-top: 50px;
+    margin-top: 3rem;
+}
+.service-width p{
+    padding-bottom: 0.8rem;
 }
 
 /* =========================
@@ -225,7 +229,7 @@ a,button{
 ============================ */
 
 #social-section{
-    padding: 100px 0;
+    padding: 6rem 0;
     background: #F7F9F8;
 }
 #social-section .container-social{
@@ -236,10 +240,10 @@ a,button{
 }
 .container-social{
     width: 80%;
-    height: 200px;
+    height: 12rem;
     margin: 0 auto;
-    box-shadow: 0 3px 12px black, inset 0 9px white;
-    border-radius: 25px;
+    box-shadow: 0 .2rem .4rem black, inset 0 .4rem white;
+    border-radius: 1.5rem;
 }
 .container-social h2{
     margin: 0;
@@ -260,27 +264,27 @@ a,button{
 }
 .contact-flex .footer-social{
     width: 40%;
-    margin: 50px 0 0 150px;
+    margin: 3rem 0 0 9rem;
     
 }
 .contact-flex .form-width{
     width: 60%;
-    margin: 50px 5% 0 0;
+    margin: 3rem 5% 0 0;
 }
 
 #contact h2{
     text-align: center;
-    padding: 60px 0 0 0 ;
+    padding: 3.5rem 0 0 0 ;
 }
 #contact h2 span{
     color: rgb(255, 115, 1);
 }
 #contact h2{
-    padding-bottom: 5px;
+    padding-bottom: .3rem;
     margin-bottom: 0;
 }
 #contact p{
-    margin-top: 10px;
+    margin-top: .8rem;
     text-align: center;
     color: white;
 }
@@ -295,16 +299,16 @@ a,button{
 .nav-item li a{
     text-decoration: underline;
     color: white;
-    font-size: 18px;
+    font-size: 1rem;
 }
 .form-group{
     background: rgb(255, 253, 253);
-    padding: 30px;
+    padding: 2.2rem;
     color: #333;
-    border-radius: 20px;
+    border-radius: 1.2rem;
 }
 .form-width h3{
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 500;
     color:#333;
     text-align: center;
@@ -312,29 +316,29 @@ a,button{
 .form-group .inputBox{
     position: relative;
     width: 100%;
-    margin-top: 10px;
+    margin-top: .8rem;
 }
 .form-group .inputBox input,
 .form-group .inputBox textarea{
     width: 100%;
-    padding: 5px 0;
-    font-size: 16px ;
-    margin: 10px 0;
+    padding: .3rem 0;
+    font-size: 1rem ;
+    margin: .8rem 0;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: .1rem solid black;
     outline: none;
     resize: none;
 }
 .form-group .inputBox input[type="submit"]{
-    width: 150px;
+    width: 9rem;
     border: none;
     color: #fff;
     background: #00bcd4;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 10px;
+    font-size: 1.1rem;
+    padding: .8rem;
+    border-radius: .8rem;
 }
 .footer-item{
     text-align: center;
-    padding: 30px 0 5px 0;
+    padding: 1.9rem 0 .3rem 0;
 }
