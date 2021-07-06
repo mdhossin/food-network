@@ -1,0 +1,330 @@
+/* =============================================
+                Basic CSS Style 
+================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Open+Sans:wght@300;400;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+body{
+    font-family: 'Open Sans','Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F7F9F8;
+    color: #212025;
+    scroll-behavior: smooth;
+    
+}
+h1,h2{
+    font-size: 55px;
+}
+h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+p{
+    color: #575757;
+    line-height: 1.7;
+}
+a,li,button{
+    font-family: 'Fira Sans','Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: #212025;
+    text-transform: capitalize;
+}
+
+.nav-btn{
+    padding: 9px 25px;
+    background: linear-gradient(to right,#FDC830,#f37335);
+    color: white;
+    border-radius: 50px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding: 3%;
+}
+/* ========================================
+    Header Section Start Here 
+=========================================== */
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+}
+.logo{
+    margin-top: 10px;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* =============================
+    Start Home Section
+================================ */
+
+#home{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+#home .half-width img{
+    width: 100%;
+    height: auto;
+}
+#home .top-margin{
+    margin-top: 100px;
+}
+.discover-taste{
+    color: rgb(255, 115, 1);
+}
+.top-margin p{
+    padding-bottom: 10px;
+    
+}
+
+
+/* ==========================
+    Start About Section
+============================= */
+
+#about{
+    width: 100%;
+   height: 600px;
+    background: url(images/7.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    padding: 50px 0 0 0;
+}
+#about .half-width p{
+    padding-bottom: 10PX;
+}
+
+
+/* ===============================
+    Start Recipies Section 
+==================================*/
+
+#recipie{
+    padding: 50px 0;
+}
+#recipie .title-recipie{
+    text-align: center;
+}
+#recipie .recipie-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+#recipie p{
+    color: #575757;
+}
+
+.recipie-list .recipie{
+    width: 32%;
+    margin: 2% 5%;
+    padding: 20px;
+    box-shadow: 0 3px 12px black, inset 0 9px white;
+    border-radius: 20px;
+    text-align: center;
+}
+.recipie-list .recipie-2{
+    margin: 2% 0%;
+}
+.recipie-list img{
+    width: 100%;
+    height: auto;
+}
+.recipie span, a{
+    color: rgb(219, 99, 0);
+}
+.recipie a{
+    text-decoration: underline;
+}
+
+
+/* ==========================
+    Menu Section
+============================= */
+
+#menu{
+    background: white;
+    padding: 50px 0 0 0;
+}
+#menu span{
+    display: block;
+    text-align: center;
+}
+#menu h2{
+    text-align: center;
+}
+#menu .menu-list{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-list img{
+    width: 100%;
+    height: auto;
+}
+.menu-list .menu-width{
+    background:  #FFF5F2 ;
+    width: 32%;
+    margin: 2% 5%;
+    padding: 20px;
+    box-shadow: 0 3px 12px black, inset 0 9px white;
+    border-radius: 20px;
+    text-align: center;
+}
+.menu-list .menu-width-2{
+    margin: 2% 0%;
+}
+.menu-list a{
+    margin: 2% 0;
+    display: block;
+}
+
+/* =====================
+    Start Service Section
+======================== */
+
+#service-section{
+    padding: 50px 0 0 0 ;
+    background: url(images/service-bg.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+}
+#service-section img{
+    width: 100%;
+    height: auto;
+}
+.service-width{
+    margin-top: 50px;
+}
+
+/* =========================
+    Social Section
+============================ */
+
+#social-section{
+    padding: 100px 0;
+    background: #F7F9F8;
+}
+#social-section .container-social{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;  
+    align-items: center;  
+}
+.container-social{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 0 3px 12px black, inset 0 9px white;
+    border-radius: 25px;
+}
+.container-social h2{
+    margin: 0;
+    color: rgb(255, 115, 1);
+}
+
+/* ======================
+    Footer Section 
+=========================*/
+
+#contact{
+    background: #333;
+    color: white;
+}
+#contact .contact-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-flex .footer-social{
+    width: 40%;
+    margin: 50px 0 0 150px;
+    
+}
+.contact-flex .form-width{
+    width: 60%;
+    margin: 50px 5% 0 0;
+}
+
+#contact h2{
+    text-align: center;
+    padding: 60px 0 0 0 ;
+}
+#contact h2 span{
+    color: rgb(255, 115, 1);
+}
+#contact h2{
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+#contact p{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item li{
+    display: block;
+    line-height: 2;
+
+}
+.nav-item li a{
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+}
+.form-group{
+    background: rgb(255, 253, 253);
+    padding: 30px;
+    color: #333;
+    border-radius: 20px;
+}
+.form-width h3{
+    font-size: 30px;
+    font-weight: 500;
+    color:#333;
+    text-align: center;
+}
+.form-group .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.form-group .inputBox input,
+.form-group .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px ;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+.form-group .inputBox input[type="submit"]{
+    width: 150px;
+    border: none;
+    color: #fff;
+    background: #00bcd4;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer-item{
+    text-align: center;
+    padding: 30px 0 5px 0;
+}
