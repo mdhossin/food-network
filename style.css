@@ -26,7 +26,7 @@ p{
     color: #575757;
     line-height: 1.7;
 }
-a,li,button{
+a,button{
     font-family: 'Fira Sans','Open Sans', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -35,12 +35,17 @@ a,li,button{
     text-transform: capitalize;
 }
 
+  /* Use all button style  */
+
 .nav-btn{
     padding: 9px 25px;
     background: linear-gradient(to right,#FDC830,#f37335);
     color: white;
     border-radius: 50px;
-}
+} 
+
+    /* Use for half with of container */
+
 .half-width{
     width: 40%;
     margin-left: 5%;
@@ -66,7 +71,9 @@ a,li,button{
     display: inline-block;
     padding: 0 20px;
 }
-
+.nav-links li a{
+    color: #212025;
+}
 /* =============================
     Start Home Section
 ================================ */
